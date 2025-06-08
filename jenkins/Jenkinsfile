@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   stages {
-    stage('Verificar Docker') {
+    stage('Verificar versão do Docker') {
       steps {
         sh 'docker --version'
       }
